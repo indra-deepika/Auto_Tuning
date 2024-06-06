@@ -89,3 +89,10 @@ Ensure the dynamic linker can find the RocksDB library by setting the `LD_LIBRAR
 export LD_LIBRARY_PATH=/mnt/c/Users/edeep/Final_Rocksdb/rocksdb/:$LD_LIBRARY_PATH
 ```
 
+
+#### 5. To run the code 
+1. Set the workload that you want to run, target knob set, target metric to optimise in settings.py
+2. Run the code use 
+```bash
+python3 pipeline.py
+```
