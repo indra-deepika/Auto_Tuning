@@ -161,5 +161,3 @@ _buffer_number` and `block_size`.
 #### Configuration Recommendation:
    ![1717662430545](data/ReadSeq/Confi_rec.png)
 - **Scatter Plot**: Tracks the performance metric `ops_per_sec` across different rounds of configuration testing, showing a noticeable increase in performance metrics after round 70.
-
-This documentation provides a detailed overview of the analysis flow for different workloads, highlighting the use of Random Forest and ANOVA to identify the most significant configuration knobs for tuning database performance.
