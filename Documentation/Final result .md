@@ -19,7 +19,7 @@
    - This set was then utilized in `pipeline.py`, which executed a Bayesian optimization task focused specifically on these selected knobs.
 
 #### Random Forest Feature Importance:
-![Random Forest Feature Importance](data\FillSeq\random_forest.png)
+![Random Forest Feature Importance](data/FillSeq/random_forest.png)
 
 - **Bar Chart**: Feature Importance based on operations per second
 - **Most Important Knobs**: `block_size`, `write_buffer_size`, `target_file_size_base`
